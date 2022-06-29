@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             let fileManager = FileManager.default
             let documentsURL =  fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-            let appSupport = documentsURL.appendingPathComponent("Memento")
+            let appSupport = documentsURL.appendingPathComponent("MenuBarHint")
 
             do
             {
